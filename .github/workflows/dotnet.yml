@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      projectpath: ./nugetdemo/pisonetpacknuget/pisonet.csproj
+      projectpath: ./pisonet.csproj
       buildconfiguration: release
       outputpath: pisonetout
       runid: ${{github.run_id}}
