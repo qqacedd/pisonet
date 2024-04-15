@@ -16,7 +16,9 @@ jobs:
       runid: ${{github.run_id}}
       githubtoken: ${{ secrets.GITHUB_TOKEN }}
       githubnugetpackageregistry: https://nuget.pkg.github.com/qqacedd/index.json
-      
+
+    permissions:
+      packages: write
 
     steps:
     - uses: actions/checkout@v4
