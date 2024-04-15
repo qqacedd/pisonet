@@ -14,7 +14,7 @@ jobs:
       buildconfiguration: release
       outputpath: pisonetout
       runid: ${{github.run_id}}
-      githubtoken: ${{ secrets.GITHUB_TOKEN }}
+      githubtoken: ${{ secrets.pisonettoken }}
       githubnugetpackageregistry: https://nuget.pkg.github.com/qqacedd/index.json
       
 
